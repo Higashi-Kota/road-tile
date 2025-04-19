@@ -1,0 +1,83 @@
+<svg id="road-tiles-sharp-grid-16" width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>16種類の直角L字道路タイルを4x4グリッドに配置したもの</desc>
+
+  <defs>
+    <g id="grid-lines" stroke="#cccccc" stroke-width="0.5">
+      <line x1="0" y1="0" x2="0" y2="40" /> <line x1="10" y1="0" x2="10" y2="40" /> <line x1="20" y1="0" x2="20" y2="40" /> <line x1="30" y1="0" x2="30" y2="40" /> <line x1="40" y1="0" x2="40" y2="40" />
+      <line x1="0" y1="0" x2="40" y2="0" /> <line x1="0" y1="10" x2="40" y2="10" /> <line x1="0" y1="20" x2="40" y2="20" /> <line x1="0" y1="30" x2="40" y2="30" /> <line x1="0" y1="40" x2="40" y2="40" />
+    </g>
+
+    <g id="anchor-points" fill="#ff0000">
+      <circle cx="10" cy="0" r="1" /> <circle cx="20" cy="0" r="1" /> <circle cx="30" cy="0" r="1" />
+      <circle cx="40" cy="10" r="1" /> <circle cx="40" cy="20" r="1" /> <circle cx="40" cy="30" r="1" />
+      <circle cx="10" cy="40" r="1" /> <circle cx="20" cy="40" r="1" /> <circle cx="30" cy="40" r="1" />
+      <circle cx="0" cy="10" r="1" /> <circle cx="0" cy="20" r="1" /> <circle cx="0" cy="30" r="1" />
+    </g>
+
+    <g id="road-sharp-top12-right12" stroke="#000000" stroke-width="1" fill="none">
+      <path d="M 10 0 L 10 30 L 40 30" /> <path d="M 20 0 L 20 20 L 40 20" />
+    </g>
+    <g id="road-sharp-top12-right23" stroke="#000000" stroke-width="1" fill="none">
+      <path d="M 10 0 L 10 20 L 40 20" /> <path d="M 20 0 L 20 10 L 40 10" />
+    </g>
+    <g id="road-sharp-top23-right12" stroke="#000000" stroke-width="1" fill="none">
+      <path d="M 20 0 L 20 30 L 40 30" /> <path d="M 30 0 L 30 20 L 40 20" />
+    </g>
+    <g id="road-sharp-top23-right23" stroke="#000000" stroke-width="1" fill="none">
+      <path d="M 20 0 L 20 20 L 40 20" /> <path d="M 30 0 L 30 10 L 40 10" />
+    </g>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right12" />
+  </g>
+  <g transform="translate(40, 0)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right23" />
+  </g>
+  <g transform="translate(80, 0)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right12" />
+  </g>
+  <g transform="translate(120, 0)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right23" />
+  </g>
+
+  <g transform="translate(0, 40)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right12" transform="rotate(90 20 20)" />
+  </g>
+  <g transform="translate(40, 40)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right23" transform="rotate(90 20 20)" />
+  </g>
+  <g transform="translate(80, 40)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right12" transform="rotate(90 20 20)" />
+  </g>
+  <g transform="translate(120, 40)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right23" transform="rotate(90 20 20)" />
+  </g>
+
+  <g transform="translate(0, 80)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right12" transform="rotate(180 20 20)" />
+  </g>
+  <g transform="translate(40, 80)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right23" transform="rotate(180 20 20)" />
+  </g>
+  <g transform="translate(80, 80)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right12" transform="rotate(180 20 20)" />
+  </g>
+  <g transform="translate(120, 80)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right23" transform="rotate(180 20 20)" />
+  </g>
+
+  <g transform="translate(0, 120)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right12" transform="rotate(270 20 20)" />
+  </g>
+  <g transform="translate(40, 120)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top12-right23" transform="rotate(270 20 20)" />
+  </g>
+  <g transform="translate(80, 120)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right12" transform="rotate(270 20 20)" />
+  </g>
+  <g transform="translate(120, 120)">
+    <use xlink:href="#grid-lines"/> <use xlink:href="#anchor-points"/> <use xlink:href="#road-sharp-top23-right23" transform="rotate(270 20 20)" />
+  </g>
+
+</svg>
