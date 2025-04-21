@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="road-tile-curve-D1D2-L2L3" width="40" height="40" viewBox="0 0 40 40">
+  <desc>Curve tile: Entry Bottom (X:10-20), Exit Left (Y:20-30)</desc>
+  <defs>
+    <style>
+      /* Styles can be kept simple or removed if not strictly needed */
+      /* .grid { stroke: #cccccc; stroke-width: 0.5; } */
+      /* .road { stroke: #000000; stroke-width: 1; fill: none; } */
+      /* .point { fill: #ff0000; } */
+    </style>
+  </defs>
+
+  <g id="grid" stroke="#cccccc" stroke-width="0.5">
+    <line x1="0" y1="10" x2="40" y2="10" /> <line x1="0" y1="20" x2="40" y2="20" /> <line x1="0" y1="30" x2="40" y2="30" />
+    <line x1="10" y1="0" x2="10" y2="40" /> <line x1="20" y1="0" x2="20" y2="40" /> <line x1="30" y1="0" x2="30" y2="40" />
+    <line x1="0" y1="0" x2="40" y2="0" /> <line x1="0" y1="40" x2="40" y2="40" />
+    <line x1="0" y1="0" x2="0" y2="40" /> <line x1="40" y1="0" x2="40" y2="40" />
+  </g>
+
+  <g id="road" stroke="#000000" stroke-width="1" fill="none" transform="rotate(180 20 20)">
+    <path id="road-outer-curve" d="M 10 0 L 10 20 C 10 25.5 14.5 30 20 30 L 40 30" />
+    <path id="road-inner-curve" d="M 20 0 L 20 15 C 20 17.8 22.2 20 25 20 L 40 20" />
+  </g>
+
+  <g id="anchor-points" fill="#ff0000">
+    <circle cx="10" cy="0" r="1" /> <circle cx="20" cy="0" r="1" /> <circle cx="30" cy="0" r="1" />
+    <circle cx="40" cy="10" r="1" /> <circle cx="40" cy="20" r="1" /> <circle cx="40" cy="30" r="1" />
+    <circle cx="10" cy="40" r="1" /> <circle cx="20" cy="40" r="1" /> <circle cx="30" cy="40" r="1" />
+    <circle cx="0" cy="10" r="1" /> <circle cx="0" cy="20" r="1" /> <circle cx="0" cy="30" r="1" />
+  </g>
+</svg>
