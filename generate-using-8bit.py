@@ -18,8 +18,8 @@ from typing import Dict, Set
 PAIR_TO_BIT: Dict[str, int] = {
     "U1U2": 0, "U2U3": 1,  # North side (left / right)
     "R1R2": 2, "R2R3": 3,  # East  side (top  / bottom)
-    "D1D2": 4, "D2D3": 5,  # South side (left / right)
-    "L1L2": 6, "L2L3": 7,  # West  side (top  / bottom)
+    "D1D2": 4, "D2D3": 5,  # South side (right / left)
+    "L1L2": 6, "L2L3": 7,  # West  side (bottom / top)
 }
 
 
