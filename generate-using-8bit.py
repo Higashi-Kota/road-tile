@@ -120,7 +120,6 @@ ROT_KEYS = {
 # 5.  Output settings
 # ------------------------------------------------------------
 OUT_DIR = "road_tiles_8bit"
-KEEP_DUP_STRAIGHT = False   # ← 重複方向の straight も書き出したい場合は True
 os.makedirs(OUT_DIR, exist_ok=True)
 
 # ------------------------------------------------------------
